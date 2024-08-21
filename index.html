@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,50 @@
     <!-- Import Tailwind CSS and DaisyUI CDN-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Import Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/f78cbcea93.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <h1 class="text-2xl">This is Assignment-03</h1>
+    <!-- This is header section -->
+    <header class="bg-gradient-to-b from-[#f2f2f2] to-white">
+        <div class="lg:w-5/6 mx-auto pt-5 pb-10">
+            <!-- This is navbar section -->
+            <nav class="flex justify-between w-11/12 mx-auto lg:w-full">
+                <div class="space-x-2 text-2xl">
+                    <i class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full -rotate-45"></i>
+                    <a class="text-2xl font-bold">Rinterio</a>
+                </div>
+                <div class="hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href="" class="font-semibold">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="space-x-3 hidden lg:block">
+                    <a href=""><i class="fa-solid fa-magnifying-glass  bg-white border-2 border-gray-100 text-black p-3 rounded-full"></i></a>
+                    <a href=""> <i class="fa-solid fa-cart-shopping  bg-white border-2 border-gray-100 text-black p-3 rounded-full"></i></a>
+                    <a class="btn bg-[#ABEF5F] font-bold rounded-full">Book Consult <i
+                            class="fa-solid fa-arrow-right bg-black text-white p-2 rounded-full -rotate-45"></i></a>
+                </div>
+                <div class="lg:hidden">
+                    <a href=""><i class="fa-solid fa-bars text-2xl bg-white border-2 border-gray-100 text-black py-3 px-4 rounded-full"></i></a>
+                </div>
+            </nav>
+            <!-- This is banner section -->
+            <section class="mb-24 w-11/12 mx-auto">
+                <div class="flex flex-col items-center space-y-8">
+                    <img class="lg:w-2/6 w-9/12 mx-auto" src="assets/banner.png" alt="">
+                    <h1 class="font-black text-5xl text-center lg:w-9/12">A barn house of this design has a striking appearance</h1>
+                    <p class="text-center lg:w-9/12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                    <h4 class="bg-[#d0f0ae] py-2 px-4 rounded-full">View Details <i class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full -rotate-45"></i></h4>
+                </div>
+            </section>
+        </div>
+    </header>
+    
 </body>
 </html>
